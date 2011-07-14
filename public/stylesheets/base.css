@@ -1,0 +1,248 @@
+@charset "utf-8";
+/*
+ * Cubbihouse Entertainment
+ * Author: Alfred Low (5 July 2011)
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Slackey&v1);
+/*@import url(http://fonts.googleapis.com/css?family=Sunshiney&v1);*/
+
+body{
+	background:url(../images/ui/sky.gif);
+	color:#FAFAFA;
+	font-size:1em;
+	/*font-family:'Sunshiney', Verdana, Geneva, sans-serif;*/
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+a{
+	color:#AAAAFF;
+}
+
+h1{
+	left:20%;
+	position:relative;
+}
+
+h1, h1 span {
+	background-image:url(../images/ui/logo.gif);
+	font-size:1%;
+	height:207px;
+	width:485px;
+}
+
+h1 span {
+	display:block;
+	margin-bottom:-207px;
+}
+
+h1 { overflow: hidden; }
+
+img.left{
+	float:left;
+	margin:1em 1em 1em 0;
+}
+
+#body{
+	background:url(../images/ui/body.gif) repeat-y center;
+	margin:-2px auto 0 auto;
+	margin-top:-2px;
+	overflow:hidden;
+}
+
+#clouds{
+	left:0px;
+	position:absolute;
+	top:0px;
+	z-index:2;
+}
+
+#container{
+	background:url(../images/ui/base.gif) no-repeat center 99%;
+	text-align:center;
+	z-index:1000;
+	border:solid 1px yellow;
+}
+
+#content{
+	display:block;
+	left:-87px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	text-align:justify;
+	width:592px;
+}
+
+#footer{
+	background:url(../images/ui/ground_foreground.gif) no-repeat center top;
+	height:238px;
+	margin-top:-130px;
+}
+
+
+#fixedNav{
+	right:-220px;
+	position:absolute;
+	top:500px;
+}
+
+#fixedNav li{
+	background:url(../images/ui/fixednav.png) no-repeat;
+	height:38px;
+	margin-bottom:-.4em;
+	padding-top:0.33em;
+	text-align:center;
+	width:179px;
+}
+
+#header{
+	background:url(../images/ui/header.gif) no-repeat center bottom;
+	height:452px;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:200;
+}
+
+#header div{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+
+#header div.nav{
+	left:-30px;
+	position:relative;
+	text-align:center;
+	top:156px;
+	width:620px;
+}
+
+#header div.nav ul#bottomLine{
+	margin-left:auto;
+	margin-right:auto;
+	width:550px;
+}
+
+#header div.nav li{
+	display:inline-block;
+	float:left;
+	margin-right:2em;
+	margin-bottom:0.5em;
+}
+
+.cloud{
+	background:url(../images/ui/clouds.png) no-repeat;
+	height:38px;
+	opacity:0.9;
+	position:absolute;
+	width:140px;
+	z-index:3;
+}
+
+.highlight{
+	color:#FBB03B;
+}
+
+.nav{
+	font-family:"Slackey", "Arial Black", Gadget, sans-serif;
+	font-size:1.5em;
+	list-style:none;
+	overflow:hidden;
+}
+
+.nav a{
+	color:#DEDB8D;
+	text-decoration:none;
+}
+
+.section{
+	border-bottom:solid 10px #693E1C;
+	/*font-family:'Sunshiney', Verdana, Geneva, sans-serif;*/
+	font-size:1em;
+	padding:0 1em 1em 1em;
+}
+
+.section:last-child{
+	border-bottom:none;
+	padding-bottom:0;
+}
+
+.section h2,
+.section h3{
+	color:#DEDB8D;
+	font-family:"Slackey", "Arial Black", Gadget, sans-serif;
+	font-size:1.5em;
+	margin-top:1em;
+	padding-bottom:0;
+}
+
+.section h2{
+	background:url(../images/ui/sectionHeader.gif) no-repeat;
+	height:50px;
+	padding-top:0.5em;
+	text-align:center;
+	width:238px;
+}
+
+.section h3{
+	font-size:1.25em;
+}
+
+.section iframe{
+	margin:0.5em auto;
+}
+
+.teamProfile{
+	float:left;
+	margin:0 1em 0.5em 0;
+}
+
+/* Side decorations */
+.balcony{
+	background:url(../images/ui/lft_balcony.png) no-repeat;
+	height:500px;
+	left:-204px;
+	margin-bottom:-500px;
+	position:relative;
+	top:300px;
+	width:180px;
+}
+
+.bucket{
+	background:url(../images/ui/lft_bucket.png) no-repeat;
+	height:195px;
+	left:-142px;
+	margin-bottom:-195px;
+	position:relative;
+	top:-10px;
+	width:154px;
+}
+
+.lftBranch1{
+	background:url(../images/ui/lft_branch1.gif) no-repeat;
+	height:161px;
+	left:-486px;
+	position:relative;
+	width:209px;
+}
+
+.lftBranch2{
+	background:url(../images/ui/lft_branch2.gif) no-repeat;
+	height:174px;
+	left:-185px;
+	margin-bottom:-174px;
+	position:relative;
+	top:-100px;
+	width:159px;
+}
+
+.rgtBranch1{
+	background:url(../images/ui/rgt_branch1.gif) no-repeat;
+	height:133px;
+	left:120%;
+	margin-bottom:-133px;
+	position:relative;
+	top:-100px;
+	width:209px;
+}
