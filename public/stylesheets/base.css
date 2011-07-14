@@ -54,7 +54,6 @@ img.left{
 	left:0px;
 	position:absolute;
 	top:0px;
-	z-index:2;
 }
 
 #container{
@@ -134,10 +133,9 @@ img.left{
 .cloud{
 	background:url(../images/ui/clouds.png) no-repeat;
 	height:38px;
-	opacity:0.9;
+	opacity:0.6;
 	position:absolute;
 	width:140px;
-	z-index:3;
 }
 
 .highlight{
@@ -155,7 +153,9 @@ img.left{
 	color:#DEDB8D;
 	text-decoration:none;
 }
-
+.nav a:hover{
+	color:#AAF;
+}
 .section{
 	border-bottom:solid 10px #693E1C;
 	/*font-family:'Sunshiney', Verdana, Geneva, sans-serif;*/
