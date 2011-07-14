@@ -194,6 +194,7 @@ img.left{
 }
 
 .teamProfile{
+	clear:both;
 	float:left;
 	margin:0 1em 0.5em 0;
 }
@@ -239,8 +240,9 @@ img.left{
 
 .rgtBranch1{
 	background:url(../images/ui/rgt_branch1.gif) no-repeat;
+	float:right;
 	height:133px;
-	left:120%;
+	left:57%;
 	margin-bottom:-133px;
 	position:relative;
 	top:-100px;
