@@ -54,6 +54,7 @@ img.left{
 	left:0px;
 	position:absolute;
 	top:0px;
+	z-index:2;
 }
 
 #container{
@@ -81,18 +82,18 @@ img.left{
 
 
 #fixedNav{
-	right:-220px;
+	right:-360px;
 	position:absolute;
 	top:500px;
 }
 
 #fixedNav li{
 	background:url(../images/ui/fixednav.png) no-repeat;
-	height:38px;
-	margin-bottom:-.4em;
-	padding-top:0.33em;
+	height:64px;
+	margin-bottom:-1em;
+	padding-top:0.75em;
 	text-align:center;
-	width:179px;
+	width:350px;
 }
 
 #header{
@@ -120,22 +121,27 @@ img.left{
 #header div.nav ul#bottomLine{
 	margin-left:auto;
 	margin-right:auto;
-	width:550px;
+	width:620px;
 }
 
 #header div.nav li{
 	display:inline-block;
 	float:left;
-	margin-right:2em;
+	margin-right:1.25em;
 	margin-bottom:0.5em;
+}
+
+#header div.nav ul#bottomLine li{
+	margin-right:1.1em;
 }
 
 .cloud{
 	background:url(../images/ui/clouds.png) no-repeat;
 	height:38px;
-	opacity:0.6;
+	opacity:0.9;
 	position:absolute;
 	width:140px;
+	z-index:3;
 }
 
 .highlight{
@@ -153,9 +159,7 @@ img.left{
 	color:#DEDB8D;
 	text-decoration:none;
 }
-.nav a:hover{
-	color:#AAF;
-}
+
 .section{
 	border-bottom:solid 10px #693E1C;
 	/*font-family:'Sunshiney', Verdana, Geneva, sans-serif;*/
