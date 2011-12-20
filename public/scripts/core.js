@@ -105,4 +105,8 @@ var app = {
 
 $(document).ready(function(){
 	app.init();
+	td = new Date;
+	if( td > new Date( 2011, 12, 26 ) ) {
+    $("#bambini-logo>img").attr('src', 'images/content/bambini_logo_120.jpg' )
+  }
 });
