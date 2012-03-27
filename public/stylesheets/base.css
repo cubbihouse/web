@@ -19,7 +19,7 @@ a{
 	color:#AAAAFF;
 }
 
-h1{
+h1, .msl {
 	left:20%;
 	position:relative;
 }
@@ -182,6 +182,7 @@ img.left{
 	padding-bottom:0;
 }
 
+.msl h2,
 .section h2,
 .section h3{
 	color:#DEDB8D;
@@ -211,6 +212,18 @@ img.left{
 	clear:both;
 	float:left;
 	margin:0 1em 0.5em 0;
+}
+
+.msl {
+	background-color: #693E1C;
+	margin-top: 1em;
+	padding: 6px;
+	text-align: center;
+	width: 485px;
+}
+
+.msl h2 {
+	margin-bottom: 8px;
 }
 
 /* Side decorations */
